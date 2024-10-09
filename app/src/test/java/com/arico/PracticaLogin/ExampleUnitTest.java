@@ -1,4 +1,4 @@
-package com.arico.PracticaPreferenciasCompartidas;
+package com.arico.PracticaLogin;
 
 import org.junit.Test;
 

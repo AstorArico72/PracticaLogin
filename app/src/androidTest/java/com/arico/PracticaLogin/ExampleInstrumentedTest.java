@@ -1,4 +1,4 @@
-package com.arico.PracticaPreferenciasCompartidas;
+package com.arico.PracticaLogin;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.arico.PracticaPreferenciasCompartidas", appContext.getPackageName());
+        assertEquals("com.arico.PracticaLogin", appContext.getPackageName());
     }
 }

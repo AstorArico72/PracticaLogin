@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.arico.PracticaPreferenciasCompartidas"
+    namespace = "com.arico.PracticaLogin"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.arico.PracticaPreferenciasCompartidas"
+        applicationId = "com.arico.PracticaLogin"
         minSdk = 29
         targetSdk = 34
         versionCode = 1

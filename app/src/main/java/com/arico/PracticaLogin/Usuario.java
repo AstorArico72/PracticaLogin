@@ -1,6 +1,6 @@
-package com.arico.PracticaPreferenciasCompartidas;
+package com.arico.PracticaLogin;
 
-public class Usuario {
+public class Usuario implements java.io.Serializable {
     private String nombre;
     private String clave;
     private String dni;

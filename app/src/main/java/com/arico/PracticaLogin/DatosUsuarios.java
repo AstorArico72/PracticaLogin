@@ -1,14 +1,13 @@
-package com.arico.PracticaPreferenciasCompartidas;
+package com.arico.PracticaLogin;
 
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.arico.PracticaPreferenciasCompartidas.databinding.ActivityDatosUsuariosBinding;
+import com.arico.PracticaLogin.databinding.ActivityDatosUsuariosBinding;
 
 public class DatosUsuarios extends AppCompatActivity {
     private ActivityDatosUsuariosBinding Binder;
@@ -17,7 +16,6 @@ public class DatosUsuarios extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         Binder = ActivityDatosUsuariosBinding.inflate(getLayoutInflater());
         setContentView(Binder.getRoot());
         this.ViewModel = ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication()).create(DatosViewModel.class);

@@ -1,10 +1,10 @@
-package com.arico.PracticaPreferenciasCompartidas;
+package com.arico.PracticaLogin;
 
 import android.app.Application;
 import android.content.Intent;
 import android.util.Log;
 import android.widget.Toast;
-import static com.arico.PracticaPreferenciasCompartidas.Api.*;
+import static com.arico.PracticaLogin.Api.*;
 
 import androidx.annotation.NonNull;
 
